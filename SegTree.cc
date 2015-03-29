@@ -1,6 +1,9 @@
 /*	Author: Ankit Sultana
  *	Motivation: http://letuskode.blogspot.ch/2013/01/segtrees.html?view=classic
  *	Data Structure: Segment Tree
+ *	Functionality: Supports two types of queries:-
+ *			1> Set all elements from [u, v] to x for given array
+ *			2> Get the sum of all elements from [u, v] for the same
  * * * * * * * * * */
  
 #include <iostream>
