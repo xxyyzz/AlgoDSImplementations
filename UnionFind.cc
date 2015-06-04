@@ -44,7 +44,7 @@ void Union_Find::print_Rank()
 int Union_Find::find_root(int x)
 {
 	if(x != P[x])
-		return find_root(P[x]);
+		return P[x] = find_root(P[x]);
 	return x;
 }
 
